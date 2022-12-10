@@ -13,8 +13,8 @@ public class C02_ReadExcel {
         //8. FileInputStream objesi olusturup,parametre olarak dosya yolunu girelim
         FileInputStream fis=new FileInputStream(dosyaYolu);
         //9. Workbook objesi olusturalim,parameter olarak fileInputStream objesini girelim
-        //10. WorkbookFactory.create(fileInputStream)
         Workbook workbook= WorkbookFactory.create(fis);
+        //10. WorkbookFactory.create(fileInputStream)
         // 20.satirda kod alemimizde bir workbook olusturup
         //  fis objesi ile okunan excel'deki bilgileri workbook'a yukledik
         //  boylece excel'dfeki datalarin bir kopyasi workbook objesine yuklendi
