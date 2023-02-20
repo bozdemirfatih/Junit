@@ -45,6 +45,7 @@ public class C02_Before_After {
 
     @After
     public void tearDown(){
+
         driver.close();
     }
 

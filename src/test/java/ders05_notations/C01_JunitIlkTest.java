@@ -32,4 +32,12 @@ public class C01_JunitIlkTest {
     System.out.println("test03");
 
     }
+    @Test
+    public void test04(){
+        System.out.println("test04");
+
+    }
+
 }
+
+
