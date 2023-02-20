@@ -72,6 +72,8 @@ public class Day03 {
     @After
     public void afterTest(){
 
+        driver.close();
+
 
 
     }
