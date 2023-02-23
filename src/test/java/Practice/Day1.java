@@ -54,12 +54,12 @@ public class Day1 {
         String sonucSayisi=cikanSonuc.getText();
        // System.out.println(sonucSayisi);
         //About 229.000.000 results (0,61 seconds)
-        sonucSayisi=sonucSayisi.substring(
+        /*sonucSayisi=sonucSayisi.substring(
                 (sonucSayisi.indexOf ("results")-1),
-                (sonucSayisi.indexOf("About")+6)
+                (sonucSayisi.indexOf("About")+6)*/
 
 
-        );
+
         //System.out.println(sonucSayisi);
 
 
