@@ -56,6 +56,8 @@ public class Day05 {
           aramaButonu2.click();
         aramaButonu2.sendKeys("oppo" + Keys.ENTER);
 
+        driver.findElement(By.xpath("//span[@class=\"a-size-medium a-color-base a-text-normal\"][1]")).click();
+
 
 
 
