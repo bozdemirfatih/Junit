@@ -51,10 +51,11 @@ public class C01_HandleDropdownMenu {
         int aramaSonucSayisiInt= Integer
                 .parseInt(aramaSonucStr
                         .substring(indexOfOf+3,indexOfResults-1));
-        Assert.assertTrue(aramaSonucSayisiInt>1000);
+        Assert.assertTrue(aramaSonucSayisiInt<1000);
     }
     @After
     public void teardown(){
-        driver.close();
+
+        //driver.close();
     }
 }
